@@ -18,6 +18,10 @@ public class AccountLoginPage {
     WebElement passwordField;
     @FindBy(xpath="//input[@value='Login']")
     WebElement loginButton;
+    @FindBy(xpath = "//a[@href='/account']")
+    WebElement accountRegistered;
+    @FindBy(xpath = "//*[@id='customer_login']/p")
+    WebElement emailErrorMessage;
 
     //Constructor for AccountLoginPage
     public AccountLoginPage(WebDriver driver) {
@@ -43,5 +47,14 @@ public class AccountLoginPage {
     //Function for clicking login button
     public void clickLoginButton(){
         loginButton.submit();
+    }
+
+    public String verifyRegistration() {
+        String actual = accountRegistered.getText();
+        return actual;
+    }
+
+    public String confirmErrorMessage(){
+        return emailErrorMessage.getText();
     }
 }
