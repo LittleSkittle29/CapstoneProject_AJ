@@ -86,7 +86,7 @@ public class RegistrationPageTests {
         accountLoginPage = new AccountLoginPage(driver);
         accountLoginPage.clickRegisterButton();
         registrationPage = new RegistrationPage(driver);
-        registrationPage.completeRegistrationForm("John","Fink","jfink10@gmail.com","P@ssword");
+        registrationPage.completeRegistrationForm("John","Fink","jfink15@gmail.com","P@ssword");
         registrationPage.register();
         Thread.sleep(30000);
 
