@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Thibault_AJ_Capstone_CaseStudy"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="25.280">
+    <properties></properties>
+
+
+
+            <testcase
+                name="ConfirmProductAddedToCart"
+                time="3.387"
+                classname="capstone.aj.testcases.CartTests">
+            </testcase>
+            <testcase
+                name="clearCart"
+                time="9.954"
+                classname="capstone.aj.testcases.CartTests">
+            </testcase>
+            <testcase
+                name="increaseQuantity"
+                time="3.428"
+                classname="capstone.aj.testcases.CartTests">
+            </testcase>
+            <testcase
+                name="cartAndProductAmountMatch"
+                time="3.286"
+                classname="capstone.aj.testcases.CartTests">
+            </testcase>
+            <testcase
+                name="productsStayInCart"
+                time="3.886"
+                classname="capstone.aj.testcases.CartTests">
+            </testcase>
+            <testcase
+                name="VerifyPriceIsPresent"
+                time="1.339"
+                classname="capstone.aj.testcases.CartTests">
+            </testcase>
+</testsuite>

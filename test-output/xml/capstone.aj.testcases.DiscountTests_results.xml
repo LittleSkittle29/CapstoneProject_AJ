@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Thibault_AJ_Capstone_CaseStudy"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.548">
+    <properties></properties>
+
+
+
+            <testcase
+                name="applyDiscountTest"
+                time="8.548"
+                classname="capstone.aj.testcases.DiscountTests">
+            </testcase>
+</testsuite>

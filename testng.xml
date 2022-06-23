@@ -16,4 +16,19 @@
             <class name="capstone.aj.testcases.SearchTests"/>
         </classes>
     </test>
+    <test name="CartTests">
+        <classes>
+            <class name="capstone.aj.testcases.CartTests"/>
+        </classes>
+    </test>
+    <test name="DiscountTests">
+        <classes>
+            <class name="capstone.aj.testcases.DiscountTests"/>
+        </classes>
+    </test>
+    <test name="CheckoutTests">
+        <classes>
+            <class name="capstone.aj.testcases.CheckOutTests"/>
+        </classes>
+    </test>
 </suite>

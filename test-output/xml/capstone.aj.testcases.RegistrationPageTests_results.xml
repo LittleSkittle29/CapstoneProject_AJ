@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegistrationPage"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="326.155">
+    <properties></properties>
+
+
+
+            <testcase
+                name="passwordRules"
+                time="32.242"
+                classname="capstone.aj.testcases.RegistrationPageTests">
+            </testcase>
+            <testcase
+                name="emailValidation"
+                time="126.126"
+                classname="capstone.aj.testcases.RegistrationPageTests">
+            </testcase>
+            <testcase
+                name="verifyNewUserRegistered"
+                time="32.281"
+                classname="capstone.aj.testcases.RegistrationPageTests">
+            </testcase>
+            <testcase
+                name="requiredFieldsBlank"
+                time="125.478"
+                classname="capstone.aj.testcases.RegistrationPageTests">
+            </testcase>
+            <testcase
+                name="newUserRegistrationPage"
+                time="10.028"
+                classname="capstone.aj.testcases.RegistrationPageTests">
+            </testcase>
+</testsuite>

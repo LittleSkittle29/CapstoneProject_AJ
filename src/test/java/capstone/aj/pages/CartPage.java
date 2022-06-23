@@ -11,6 +11,12 @@ public class CartPage {
     //Identifiers for Web Elements
     @FindBy(xpath = "//*[@id='shopify-section-header']/section/header/div[1]/div/div[2]/div[2]/a/span[2]")
     WebElement cartAmount;
+    @FindBy(id = "updates_32036323328053")
+    WebElement productAmount;
+    @FindBy(xpath = "//*[@id='shopify-section-cart']/section/form/table/tbody/tr/td[1]/a[2]")
+    WebElement removeProduct;
+    @FindBy(name = "checkout")
+    WebElement checkoutButton;
 
     //Cart Page constructor
     public CartPage(WebDriver driver) {
@@ -21,5 +27,20 @@ public class CartPage {
     //Function to identify cart amount
     public String cartAmount(){
         return cartAmount.getText();
+    }
+
+    //Function to identify product amount
+    public String productAmount(){
+        return productAmount.getAttribute("value");
+    }
+
+    //Function for removing product form the cart
+    public void removeProduct(){
+        removeProduct.click();
+    }
+
+    //Function for clicking checkout
+    public void checkout(){
+        checkoutButton.click();
     }
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Thibault_AJ_Capstone_CaseStudy"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.702">
+    <properties></properties>
+
+
+
+            <testcase
+                name="ProductSearchFailTest"
+                time="1.412"
+                classname="capstone.aj.testcases.SearchTests">
+            </testcase>
+            <testcase
+                name="ProductSearchSuccessTest"
+                time="2.290"
+                classname="capstone.aj.testcases.SearchTests">
+            </testcase>
+</testsuite>

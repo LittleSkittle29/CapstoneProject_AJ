@@ -75,7 +75,7 @@ public class SearchTests {
     //Verify if search bar is blank website will display popular items instead
     @Test(priority = 2)
     public void ProductSearchFailTest() throws IOException {
-        test = extent.createTest("ProductSearchFailTest","Test Passed");
+        test = extent.createTest("ProductSearchFailTest","Test Failed");
         homePage = new HomePage(driver);
         homePage.clickSearchButton();
         searchResultsPage = new SearchResultsPage(driver);
