@@ -49,6 +49,7 @@ public class RegistrationPageTests {
         htmlReporter.config().setTheme(Theme.DARK);
     }
 
+    //Browser Manager
     @BeforeMethod
     public void launchBrowser(){
         driver = SelectBrowser.StartBrowser("Chrome");
@@ -56,6 +57,7 @@ public class RegistrationPageTests {
         driver.get("https://www.alexandnova.com/");
     }
 
+    //Register new User test
     @Test(priority = 1)
     public void newUserRegistrationPage() throws IOException {
         softAssert = new SoftAssert();
@@ -74,6 +76,7 @@ public class RegistrationPageTests {
         FileUtils.copyFile(file, new File("src/test/resources/capstone.aj.screenshots/RegistrationPage.png"));
     }
 
+    //Check if new user was created successfully
     @Test(priority = 2)
     public void verifyNewUserRegistered() throws InterruptedException, IOException {
         softAssert = new SoftAssert();
@@ -95,6 +98,7 @@ public class RegistrationPageTests {
         FileUtils.copyFile(file, new File("src/test/resources/capstone.aj.screenshots/RegistrationSuccessful.png"));
     }
 
+    //Check that a valid email was entered in user creation process
     @Test(priority = 3)
     public void emailValidation() throws InterruptedException, IOException {
         softAssert = new SoftAssert();
@@ -136,6 +140,7 @@ public class RegistrationPageTests {
         FileUtils.copyFile(file, new File("src/test/resources/capstone.aj.screenshots/RegistrationEmailInvalid.png"));
     }
 
+    //Check for failure if required fields are not filled
     @Test(priority = 4)
     public void requiredFieldsBlank() throws InterruptedException, IOException {
         softAssert = new SoftAssert();
@@ -177,6 +182,7 @@ public class RegistrationPageTests {
         FileUtils.copyFile(file, new File("src/test/resources/capstone.aj.screenshots/RegistrationRequiredFieldsBlank.png"));
     }
 
+    //Check that password rules were enforced during user creation
     @Test(priority = 5)
     public void passwordRules() throws InterruptedException, IOException {
         softAssert = new SoftAssert();
@@ -197,11 +203,13 @@ public class RegistrationPageTests {
         FileUtils.copyFile(file, new File("src/test/resources/capstone.aj.screenshots/RegistrationPasswordRules.png"));
     }
 
+    //close driver
     @AfterMethod
     public void closeBrowser(){
         driver.quit();
     }
 
+    //compile report
     @AfterSuite
     public void tearDown(){
         extent.flush();

@@ -6,4 +6,14 @@
             <class name="capstone.aj.testcases.RegistrationPageTests"/>
         </classes>
     </test>
+    <test name="UserLogin">
+        <classes>
+            <class name="capstone.aj.testcases.UserLoginTests"/>
+        </classes>
+    </test>
+    <test name="SearchTests">
+        <classes>
+            <class name="capstone.aj.testcases.SearchTests"/>
+        </classes>
+    </test>
 </suite>

@@ -25,6 +25,7 @@ public class HomePage {
 
     //Function for inputting arg in the search field
     public void inputArgInSearchField(String arg){
+        driver.findElement(searchField).clear();
         driver.findElement(searchField).sendKeys(arg);
     }
 

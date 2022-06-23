@@ -17,11 +17,18 @@ public class ProductDetailsPage {
     WebElement adjustQuantity;
     @FindBy(xpath = "//*[@id='product_form_4502868951093']/div[4]/input")
     WebElement addToCart;
+    @FindBy(xpath = "//*[@id='shopify-section-product']/section/div/div[3]/div/p/span[1]")
+    WebElement price;
 
     //Constructor for ProductDetailsPage
     public ProductDetailsPage (WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver,this);
+    }
+
+    //Function for Confirming price exists
+    public String confirmPriceExists(){
+        return price.getText();
     }
 
     //Function for selecting size
