@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="33.067">
+           time="34.463">
     <properties></properties>
 
 
 
             <testcase
                 name="VerifySuccessfulUserLogin"
-                time="31.041"
+                time="31.848"
                 classname="capstone.aj.testcases.UserLoginTests">
             </testcase>
             <testcase
                 name="VerifyFailedUserLogin"
-                time="2.026"
+                time="2.615"
                 classname="capstone.aj.testcases.UserLoginTests">
             </testcase>
 </testsuite>

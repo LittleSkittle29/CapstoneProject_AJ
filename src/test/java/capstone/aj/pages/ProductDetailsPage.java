@@ -15,7 +15,7 @@ public class ProductDetailsPage {
     WebElement selectType;
     @FindBy(xpath = "//*[@name='quantity']")
     WebElement adjustQuantity;
-    @FindBy(xpath = "//*[contains(@id='product_form')]/div[4]/input")
+    @FindBy(xpath = "//input[@value='Add to cart']")
     WebElement addToCart;
     @FindBy(xpath = "//*[@id='shopify-section-product']/section/div/div[3]/div/p/span[1]")
     WebElement price;
