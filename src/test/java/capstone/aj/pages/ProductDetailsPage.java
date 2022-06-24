@@ -13,9 +13,9 @@ public class ProductDetailsPage {
     WebElement selectAdultSize;
     @FindBy(xpath = "//*[@id='bcpo-select-option-1']/div[4]/label")
     WebElement selectType;
-    @FindBy(xpath = "//*[@id='ispbxii_1']")
+    @FindBy(xpath = "//*[@name='quantity']")
     WebElement adjustQuantity;
-    @FindBy(xpath = "//*[@id='product_form_4502868951093']/div[4]/input")
+    @FindBy(xpath = "//*[contains(@id='product_form')]/div[4]/input")
     WebElement addToCart;
     @FindBy(xpath = "//*[@id='shopify-section-product']/section/div/div[3]/div/p/span[1]")
     WebElement price;

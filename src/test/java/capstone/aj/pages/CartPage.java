@@ -11,7 +11,7 @@ public class CartPage {
     //Identifiers for Web Elements
     @FindBy(xpath = "//*[@id='shopify-section-header']/section/header/div[1]/div/div[2]/div[2]/a/span[2]")
     WebElement cartAmount;
-    @FindBy(id = "updates_32036323328053")
+    @FindBy(name = "updates[]")
     WebElement productAmount;
     @FindBy(xpath = "//*[@id='shopify-section-cart']/section/form/table/tbody/tr/td[1]/a[2]")
     WebElement removeProduct;

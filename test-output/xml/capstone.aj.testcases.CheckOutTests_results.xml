@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Thibault_AJ_Capstone_CaseStudy"
+<testsuite name="CheckoutTests"
            tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="78.315">
+           time="60.315">
     <properties></properties>
 
 
 
             <testcase
                 name="failedCheckout"
-                time="28.618"
+                time="21.518"
                 classname="capstone.aj.testcases.CheckOutTests">
             </testcase>
             <testcase
                 name="checkoutMandatoryFields"
-                time="28.601"
+                time="21.979"
                 classname="capstone.aj.testcases.CheckOutTests">
             </testcase>
             <testcase
                 name="PaymentMethodsAvailable"
-                time="21.096"
+                time="16.818"
                 classname="capstone.aj.testcases.CheckOutTests">
             </testcase>
 </testsuite>

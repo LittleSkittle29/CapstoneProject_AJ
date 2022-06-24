@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Thibault_AJ_Capstone_CaseStudy"
+<testsuite name="UserLogin"
            tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="33.679">
+           time="33.067">
     <properties></properties>
 
 
 
             <testcase
                 name="VerifySuccessfulUserLogin"
-                time="31.245"
+                time="31.041"
                 classname="capstone.aj.testcases.UserLoginTests">
             </testcase>
             <testcase
                 name="VerifyFailedUserLogin"
-                time="2.434"
+                time="2.026"
                 classname="capstone.aj.testcases.UserLoginTests">
             </testcase>
 </testsuite>
